@@ -8,22 +8,21 @@ const Header = () => {
         <div className='reactapp__header  section__padding' id='home'>
             <div className='reactapp__header-content'>
                 <h1>Build Something amazing with ReactApp</h1>
-                <p>Note that this delay will not affect the initial render, only subsequent "ready" state changes. Setting the firstLaunchOnly prop to true will also disable this feature.</p>
+                <p>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</p>
 
                 <div className='reactapp__header-content__input'>
                     <input type='email' placeholder='Email Address' />
-                    <button type='button'>Start</button>
+                    <button type='button'>Subscribe</button>
                 </div>
 
                 <div className='reactapp__header-content_people'>
                     <img src={people} alt='faces' />
                     <p>1m people requested early access in last 6 months</p>
                 </div>
-                <div className='reactapp__header-image'>
-                    <img src={ai} />
-                </div>
             </div>
-
+            <div className='reactapp__header-image'>
+                <img src={ai} />
+            </div>
         </div>
     )
 }
