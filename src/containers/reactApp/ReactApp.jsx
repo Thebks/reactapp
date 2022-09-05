@@ -9,7 +9,7 @@ const ReactApp = () => {
                 <Feature />
             </div>
             <div className='reactapp__reactapp-heading'>
-                <h1 className='gradient__text'>The possibilities are endless</h1>
+                <h1>The possibilities are endless</h1>
                 <p>Explore the Library</p>
             </div>
             <div className='reactapp__reactapp-container'>
