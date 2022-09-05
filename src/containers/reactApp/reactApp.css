@@ -72,6 +72,8 @@ reactapp__reactapp-heading {
     margin-top: 2rem;
 }
 
+/* WIP */
+
 @media screen and (max-width: 850px) {
     .reactapp__reactapp-heading {
         flex-direction: column;
@@ -86,12 +88,11 @@ reactapp__reactapp-heading {
 
 @media screen and (max-width: 650px) {
 
-    /* Customizing feature component as per needs */
+
     .reactapp__reactapp-feature .reactapp__features-container__feature {
         flex-direction: column;
     }
 
-    /* Customizing feature component as per needs */
     .reactapp__reactapp-feature .reactapp__features-container_feature-text {
         margin-top: 0.5rem;
     }
@@ -104,7 +105,7 @@ reactapp__reactapp-heading {
 
 @media screen and (max-width: 350px) {
 
-    /* Customizing feature component as per needs */
+
     .reactapp__reactapp-container .reactapp__features-container__feature {
         margin: 1rem 0;
         min-width: 100%;
