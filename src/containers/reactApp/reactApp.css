@@ -37,7 +37,7 @@
     max-width: 700px;
 }
 
-reactapp__reactapp-heading {
+.reactapp__reactapp-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -72,7 +72,17 @@ reactapp__reactapp-heading {
     margin-top: 2rem;
 }
 
-/* WIP */
+.reactapp__reactapp-container .reactapp__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.reactapp__reactapp-container .reactapp__features-container_feature-text {
+    margin-top: 0.5rem;
+}
 
 @media screen and (max-width: 850px) {
     .reactapp__reactapp-heading {
