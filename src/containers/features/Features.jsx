@@ -25,10 +25,10 @@ const Features = () => {
     return (
         <div className='reactapp__features section__padding'>
             <div className='reactapp__features-heading'>
-                <h1 className='gradient__text'> The power of ReactApp is infinite</h1>
+                <h1> The power of ReactApp is infinite</h1>
                 <p>Request early access</p>
             </div>
-            <div className='reactapp_feature-container'>
+            <div className='reactapp__features-container'>
                 {reactAppFeatures.map((item, index) => (
                     <Feature title={item.title} text={item.text} key={item.title + index} />
                 ))}
