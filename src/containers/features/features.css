@@ -15,7 +15,7 @@
     margin-right: 5rem;
 }
 
-reactapp__features-heading h1 {
+.reactapp__features-heading h1 {
     font-size: 36px;
     line-height: 45px;
     font-weight: 800;
@@ -28,6 +28,7 @@ reactapp__features-heading h1 {
     line-height: 30px;
     font-weight: 500;
     font-family: var(--font-family);
+
     margin-top: 2rem;
 }
 
@@ -37,4 +38,22 @@ reactapp__features-heading h1 {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+}
+
+@media screen and (max-width: 990px) {
+    .reactapp__features {
+        flex-direction: column;
+    }
+
+    .reactapp__features-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .reactapp__features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
 }

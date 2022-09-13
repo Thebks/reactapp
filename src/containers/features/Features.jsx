@@ -23,7 +23,7 @@ const reactAppFeatures = [
 
 const Features = () => {
     return (
-        <div className='reactapp__features section__padding'>
+        <div className='reactapp__features section__padding' id='features'>
             <div className='reactapp__features-heading'>
                 <h1> The power of ReactApp is infinite</h1>
                 <p>Request early access</p>
